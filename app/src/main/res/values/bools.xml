@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="check_box_bass_default_value">true</bool>
+    <bool name="check_box_square_default_value">true</bool>
+    <bool name="check_box_triangle_default_value">true</bool>
+</resources>

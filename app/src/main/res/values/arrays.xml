@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_of_colors_labels">
+        <item >@string/label_red_option</item>
+        <item>@string/label_green_option</item>
+        <item>@string/label_blue_option</item>
+    </string-array>
+
+    <string-array name="array_of_colors_values">
+        <item>@string/value_label_red_option</item>
+        <item>@string/value_label_green_option</item>
+        <item>@string/value_label_blue_option</item>
+    </string-array>
+</resources>

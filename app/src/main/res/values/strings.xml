@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Visualize</string>
+
+    <!-- COMPLETED (4) Add string for Settings -->
+    <string name="action_settings">Settings</string>
+    <string name="check_box_bass_title" translatable="false">Show Bass</string>
+    <string name="check_box_summary_hidden">Hidden</string>
+    <string name="check_box_summary_show">Show</string>
+    <string name="bass_key"> bassKey </string>
+
+    <string name="check_box_square_title" translatable="false">Show Square</string>
+    <string name="square_key"> squareKey </string>
+
+    <string name="check_box_triagle_title" translatable="false">Show Triangle</string>
+    <string name="triangle_key"> triangleKey </string>
+
+
+    <string name="size_title" translatable="false">Edit Size</string>
+    <string name="size_key">sizeKey</string>
+    <string name="size_default">1</string>
+
+
+    <string name="colors_option_title" translatable="false">Interface color while playing</string>
+    <string name="colors_option_key">colorsKey</string>
+    <string name="label_red_option" translatable="false"> Red</string>
+    <string name="label_green_option" translatable="false">Green</string>
+    <string name="label_blue_option" translatable="false">Blue</string>
+
+    <string name="value_label_red_option" translatable="false">red</string>
+    <string name="value_label_green_option" translatable="false">green</string>
+    <string name="value_label_blue_option" translatable="false">blue</string>
+
+
+    <!-- - - - - - - - - - - - - - - -
+          - Used by Preferences  -
+          - - - - - - - - - - - - - - - -->
+
+    <!-- Value in SharedPreferences for red color option -->
+
+</resources>

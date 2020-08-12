@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <CheckBoxPreference
+        android:title="@string/check_box_bass_title"
+        android:defaultValue="@bool/check_box_bass_default_value"
+        android:key="@string/bass_key"
+        android:summaryOn="@string/check_box_summary_show"
+        android:summaryOff="@string/check_box_summary_hidden"/>
+
+    <CheckBoxPreference
+        android:title="@string/check_box_square_title"
+        android:defaultValue="@bool/check_box_square_default_value"
+        android:key="@string/square_key"
+        android:summaryOff="@string/check_box_summary_hidden"
+        android:summaryOn="@string/check_box_summary_show"/>
+
+    <CheckBoxPreference
+        android:title="@string/check_box_triagle_title"
+        android:defaultValue="@bool/check_box_bass_default_value"
+        android:key="@string/triangle_key"
+        android:summaryOn="@string/check_box_summary_show"
+        android:summaryOff="@string/check_box_summary_hidden"/>
+
+    <EditTextPreference
+        android:key="@string/size_key"
+        android:title="@string/size_title"
+        android:defaultValue="@string/size_default"/>
+
+   <ListPreference
+        android:defaultValue="@string/value_label_red_option"
+        android:entries="@array/array_of_colors_labels"
+        app:entryValues="@array/array_of_colors_values"
+        android:title="@string/colors_option_title"
+        android:key="@string/colors_option_key"
+        android:summary="%s"/>
+
+</PreferenceScreen>
